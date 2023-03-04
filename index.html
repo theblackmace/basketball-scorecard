@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script src="driver.js"></script>
+        <div id="main-container">
+            <div id="home-guest">
+                <div id="home">
+                    <h1 class="title" id="home-title">HOME</h1>
+                    <div class="score-panel">
+                        <h1 id="home-score">0</h1>
+                    </div>
+                    <div class="buttons">
+                        <button class="plus-one" onclick="oneHome()">+1</button>
+                        <button class="plus-two" onclick="twoHome()">+2</button>
+                        <button class="plus-three" onclick="threeHome()">+3</button>
+                    </div>
+                </div>
+
+                <div id="guest">
+                    <h1 class="title" id="guest-title">GUEST</h1>
+                    <div class="score-panel">
+                        <h1 id="guest-score">0</h1>
+                    </div>
+                    <div class="buttons">
+                        <button class="plus-one" onclick="oneGuest()">+1</button>
+                        <button class="plus-two" onclick="twoGuest()">+2</button>
+                        <button class="plus-three" onclick="threeGuest()">+3</button>
+                    </div>
+                </div>
+            </div>
+
+            <button id="clr-btn" onclick="resetGame()">New Game</button>
+
+        </div>
+    </body>
+</html>
